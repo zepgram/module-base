@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+* This file is part of Zepgram\Base\etc
+*
+* @package    Zepgram\Base\etc
+* @file       module.xml
+* @date       21 07 2019 15:48
+*
+* @author     Benjamin Calef <zepgram@gmail.com>
+* @copyright  2019 Zepgram Copyright (c) (https://github.com/zepgram)
+* @license    MIT License
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Zepgram_Base" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_Backend"/>
+        </sequence>
+    </module>
+</config>
